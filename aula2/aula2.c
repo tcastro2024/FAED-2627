@@ -1,18 +1,11 @@
-// aula1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// aula2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <stdio.h>
-#include <conio.h>
+#include <iostream>
 
-int main() {
-
-	printf("Hello, World!\n");
-	printf("\n");
-	
-	printf("Prima qualquer tecla...");
-	printf("\n");
-	_getch();
-	return 0;
+int main()
+{
+    std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
