@@ -27,7 +27,7 @@ int main() {
 	setlocale(LC_ALL, "pt-PT");
 
 
-#pragma region Exercicio com variaveis
+#pragma region Exercícios com variaveis
 
 	//***** 1. Declare variáveis para armazenar : nome(array de char), idade(int) e altura(float).
 	// Atribua valores e mostre-os na consola.	
@@ -193,7 +193,8 @@ int main() {
 
 #pragma endregion
 
-#pragma region Operadores
+#pragma region Exercícios com Operadores
+
 
 	//***** 1. Fazer um programa para ler nome e salário de dois funcionários.
 	//   Depois, mostrar a média do salário dos funcionários.
@@ -330,18 +331,17 @@ int main() {
 	
 	//***** 9.Faça um algoritmo que converta uma temperatura fornecida em graus Fahrenheit para Centígrados.
 	// Sugestão: utilize a fórmula C = 5 / 9 (F - 32)
-	float fahrenheit, celsius;
+	//float fahrenheit, celsius;
 
-	printf("Digite a temperatura em Fahrenheit: ");
-	scanf_s("%f", &fahrenheit);
+	//printf("Digite a temperatura em Fahrenheit: ");
+	//scanf_s("%f", &fahrenheit);
 
-	celsius = (5.0f / 9.0f) * (fahrenheit - 32.0f);
+	//celsius = (5.0f / 9.0f) * (fahrenheit - 32.0f);
 
-	printf("A temperatura em Celsius é: %.2f\n", celsius);
+	//printf("A temperatura em Celsius é: %.2f\n", celsius);
 
 
 #pragma endregion
-
 
 
 #pragma endregion
