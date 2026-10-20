@@ -1,6 +1,7 @@
 // aula2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#define _CRT_SECURE_NO_WARNINGS 
 #define _USE_MATH_DEFINES   // para usar constantes matemáticas como M_PI
 #include <stdio.h>   // para funções de entrada e saída como printf, scanf, etc.
 #include <stdlib.h> // para funções de alocação de memória, conversão de tipos, etc.
@@ -10,6 +11,8 @@
 #include <conio.h> // para _getch()
 #include <windows.h>   // para SetConsoleCP / SetConsoleOutputCP
 #include <math.h>  // para funções matemáticas como pow, sqrt, sin, cos, tan, etc.
+
+
 
 int main() {
 
@@ -198,28 +201,28 @@ int main() {
 
 	//***** 1. Fazer um programa para ler nome e salário de dois funcionários.
 	//   Depois, mostrar a média do salário dos funcionários.
-	//char nome1[50], nome2[50];
-	//float val1, val2, resultado;
+	char nome1[50], nome2[50];
+	float val1, val2, resultado;
 
-	//printf("Digite o nome 1: ");
-	//gets_s(nome1, sizeof(nome1));
+	printf("Digite o nome 1: ");
+	gets(nome1, sizeof(nome1));
 
-	//getchar();
+	getchar();
 
-	//printf("Digite o nome 2: ");
-	//gets_s(nome2, sizeof(nome2));
+	printf("Digite o nome 2: ");
+	gets(nome2, sizeof(nome2));
 
-	//printf("Digite o valor 1: ");
-	//scanf_s("%f", &val1);
+	printf("Digite o valor 1: ");
+	scanf("%f", &val1);
 
-	//printf("Digite o valor 2: ");
-	//scanf_s("%f", &val2);
+	printf("Digite o valor 2: ");
+	scanf("%f", &val2);
 
-	//resultado = (val1 + val2) / 2;
+	resultado = (val1 + val2) / 2;
 
-	//printf_s("\nNome1: %s", nome1);
-	//printf_s("\nNome2: %s", nome2);
-	//printf_s("\nResultado da media dos (%f + %f)/2: %f", val1, val2, resultado);
+	printf("\nNome1: %s", nome1);
+	printf("\nNome2: %s", nome2);
+	printf("\nResultado da media dos (%.2f + %.2f)/2: %.2f", val1, val2, resultado);
 
 	//***** 2. Faça um programa que calcule a área de um triângulo. Formula : área = (base x altura) / 2
 	//int base, altura;
