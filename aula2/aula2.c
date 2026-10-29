@@ -201,28 +201,28 @@ int main() {
 
 	//***** 1. Fazer um programa para ler nome e salário de dois funcionários.
 	//   Depois, mostrar a média do salário dos funcionários.
-	char nome1[50], nome2[50];
-	float val1, val2, resultado;
+	//char nome1[50], nome2[50];
+	//float val1, val2, resultado;
 
-	printf("Digite o nome 1: ");
-	gets(nome1, sizeof(nome1));
+	//printf("Digite o nome 1: ");
+	//gets(nome1, sizeof(nome1));
 
-	getchar();
+	//getchar();
 
-	printf("Digite o nome 2: ");
-	gets(nome2, sizeof(nome2));
+	//printf("Digite o nome 2: ");
+	//gets(nome2, sizeof(nome2));
 
-	printf("Digite o valor 1: ");
-	scanf("%f", &val1);
+	//printf("Digite o valor 1: ");
+	//scanf("%f", &val1);
 
-	printf("Digite o valor 2: ");
-	scanf("%f", &val2);
+	//printf("Digite o valor 2: ");
+	//scanf("%f", &val2);
 
-	resultado = (val1 + val2) / 2;
+	//resultado = (val1 + val2) / 2;
 
-	printf("\nNome1: %s", nome1);
-	printf("\nNome2: %s", nome2);
-	printf("\nResultado da media dos (%.2f + %.2f)/2: %.2f", val1, val2, resultado);
+	//printf("\nNome1: %s", nome1);
+	//printf("\nNome2: %s", nome2);
+	//printf("\nResultado da media dos (%.2f + %.2f)/2: %.2f", val1, val2, resultado);
 
 	//***** 2. Faça um programa que calcule a área de um triângulo. Formula : área = (base x altura) / 2
 	//int base, altura;
