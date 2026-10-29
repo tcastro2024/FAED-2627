@@ -12,6 +12,9 @@
              "Trusted_Connection=yes;TrustServerCertificate=yes;"
 #endif
 
+// ******** Configuração necessaria: ********
+// Project -> Properties -> Advanced -> Character Set -> Use Multi-Byte Character Set
+
 void mostrarErro(SQLSMALLINT tipo, SQLHANDLE h)
 {
     SQLCHAR estado[6], msg[256];
